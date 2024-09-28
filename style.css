@@ -1,36 +1,36 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .layoutcontainer {
-    border: 4px solid lightgray;
-    padding: 24px 24px 0px 24px;
+  border: 4px solid lightgray;
+  padding: 24px 24px 0px 24px;
 }
 
 .row {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .title {
-    border: 2px solid lightgray;
-    width: 100%;
-height: 24px;
-margin-bottom: 24px;
+  border: 2px solid lightgray;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
 }
 
 .layoutbox {
-    border: 4px solid lightgray;
-    width: 30%;
-    height: 100px;
-    margin-bottom: 24px;
-  }
+  border: 4px solid lightgray;
+  width: 30%;
+  height: 100px;
+  margin-bottom: 24px;
+}
 
 .Lwrapper {
-    display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .box {
@@ -54,29 +54,29 @@ justify-content: space-between;
   border: 4px solid lightgray;
   display: flex;
   justify-content: space-between;
-  padding: 24px;
+  padding: 24px 24px 0 24px;
 }
 
 .L3container {
-    border: 4px solid lightgray;
-    padding: 24px 24px 0 24px;
-    display: flex;
-    justify-content: space-between;
+  border: 4px solid lightgray;
+  padding: 24px 24px 0 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.L3BoxMain {
-    border: 4px solid lightgray;
-    width: 50%;
-    height: 100px;
-    margin-bottom: 24px;
-  }
+.L3Box {
+  border: 4px solid lightgray;
+  margin: 24px;
+}
+
+.L3Box-small {
+    height: 50px;
+}
 
 .L3Wrapper {
-    width:  45%;
+  width: 45%;
 }
 
-.L3BoxMain-3 {
-    border: 4px solid lightgray;
-    width: 50%;
-  }
-
+.L3Box-change {
+  width: 45%;
+}
